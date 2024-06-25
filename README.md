@@ -16,10 +16,16 @@ curl -O https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
 
 ## Run
 
-1. Run `init.sh`.
+1. Create `ws/`.
+
+```sh
+mkdir ws
+```
+
+2. Run `init.sh`.
 
 ```sh
 ./init.sh
 ```
 
-2. Open Jupyter Lab using the link displayed in the terminal.
+3. Open Jupyter Lab using the link displayed in the terminal.
